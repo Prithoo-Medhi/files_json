@@ -16,11 +16,10 @@ def fields_in_json(file: str):
         json_data = json.load(file)
         return list(json_data.keys())
 
-def text_lines(file: str):
+def text_lines_from_file(file: str):
     with open(file) as file:
         lines = file.readlines()
     return lines
-
 
 
 
@@ -29,17 +28,20 @@ def main():
     text_lines = []
 
     files = find_list_of_files(directory='allureReport')
-    # print(files)
+
     for file in files:
         if file.endswith('.json'):
             fields_in_file = fields_in_json(f'{BASE_PATH}{file}')
             list_of_fields.extend(fields_in_file)
         elif file.endswith('.txt'):
-            lines = text_lines(f'{BASE_PATH}{file}')
+            lines = text_lines_from_file(f'{BASE_PATH}{file}')
             text_lines.extend(lines)
 
     set_of_fields = set(list_of_fields)
     set_of_fields = sorted(set_of_fields)
+
+    set_of_lines = set(text_lines)
+    set_of_lines = sorted(set_of_lines)
 
     save_fields_to_file(set_of_fields)
     save_lines_to_file(text_lines)
