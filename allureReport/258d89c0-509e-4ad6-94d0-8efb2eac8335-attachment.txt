@@ -1,0 +1,13 @@
+2021-12-15 12:22:31,684 - conftest - INFO - json files from folder - [PosixPath('/home/rickey/Documents/techvariable/itt/OSS-Pytest-Plugin/temp/WorkingDir/tests-automation/custom_project/locators/project_locators.json')]
+2021-12-15 12:22:31,687 - conftest - INFO - Test Execution id : - 
+2021-12-15 12:22:31,687 - conftest - INFO - ****** Started executing Scenario: "OSS-TC-007: Particular element screenshot" from Feature: "User accesses the pfizer.com and verifies Home Page Logo is loaded" ******
+2021-12-15 12:22:31,690 - pytest_selenium.pytest_selenium - INFO - Capabilities from markers: {}
+2021-12-15 12:22:31,696 - pytest_selenium.pytest_selenium - INFO - Driver init, attempt 1/3
+2021-12-15 12:22:52,520 - utils.browser_actions - INFO - Navigated to URL: https://www.pfizer.com/
+2021-12-15 12:22:52,521 - conftest - INFO - ****** Step: "I navigate to external page 'https://www.pfizer.com/'" PASSED from Scenario:" OSS-TC-007: Particular element screenshot " and Feature: "User accesses the pfizer.com and verifies Home Page Logo is loaded" ******
+2021-12-15 12:22:52,527 - utils.locators - INFO - Started parsing the locators
+2021-12-15 12:22:52,528 - utils.locators - INFO - Locators parsed successfully
+2021-12-15 12:22:58,344 - conftest - INFO - ****** Step: "Take a component screenshot 'pfizerdotcom > home page > image'" PASSED from Scenario:" OSS-TC-007: Particular element screenshot " and Feature: "User accesses the pfizer.com and verifies Home Page Logo is loaded" ******
+2021-12-15 12:22:58,345 - conftest - INFO - Test Execution id : - 
+2021-12-15 12:22:58,345 - conftest - INFO - ****** Scenario: "OSS-TC-007: Particular element screenshot" execution completed for Feature: "User accesses the pfizer.com and verifies Home Page Logo is loaded"******
+2021-12-15 12:23:00,995 - conftest - INFO - Automation Session Complete !!!

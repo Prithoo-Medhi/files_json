@@ -1,0 +1,21 @@
+{
+    "uuid": "cf76523e-02c5-4327-b77c-921d61cd3dec",
+    "befores": [
+        {
+            "name": "selenium",
+            "status": "passed",
+            "start": 1639551158652,
+            "stop": 1639551158652
+        }
+    ],
+    "afters": [
+        {
+            "name": "selenium::0",
+            "status": "passed",
+            "start": 1639551178921,
+            "stop": 1639551178921
+        }
+    ],
+    "start": 1639551158652,
+    "stop": 1639551178921
+}
